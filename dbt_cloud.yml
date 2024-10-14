@@ -1,8 +1,12 @@
 
+# This file is the project configuration file for dbt. It specifies the configuration
+# that dbt will use to build your project. This file is written in YAML. You can
+# learn more about YAML syntax here: https://learn.getdbt.com/docs/building-a-dbt-project/project-configuration-files
+
 # Name your project! Project names should contain only lowercase characters
 # and underscores. A good package name should reflect your organization's
 # name or the intended use of these models
-name: 'my_new_project'
+name: 'dbt_weather_flights'
 version: '1.0.0'
 config-version: 2
 
