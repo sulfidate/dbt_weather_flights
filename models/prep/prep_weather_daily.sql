@@ -1,5 +1,3 @@
-SELECT * FROM staging_weather_daily
-
 WITH daily_data AS (
     SELECT * 
     FROM {{ref('staging_weather_daily')}}
