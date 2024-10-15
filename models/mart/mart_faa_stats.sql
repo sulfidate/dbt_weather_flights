@@ -38,8 +38,8 @@ total_stats AS (
 					USING (faa)
 )
 -- add city, country and name of the airport
-SELECT city  
-		,country
+SELECT city
+        ,country
 		,name
 		,total_stats.*
 FROM {{ref('prep_airports')}}
